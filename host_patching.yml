@@ -1,1 +1,6 @@
 
+---
+name: running yum update -y
+yum:
+  name: *
+  state: latest
