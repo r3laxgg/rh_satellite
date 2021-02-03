@@ -1,0 +1,7 @@
+---
+name: running yum update -y
+yum:
+  name: *
+  security: yes
+  state: latest
+  exclude: kernel*
